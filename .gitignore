@@ -1,0 +1,20 @@
+# Hidden files
+.*
+!.gitignore
+!.gitlab-ci.yml
+!.readthedocs.yaml
+!.pre-commit-config.yaml
+!.flake8
+!/.github/
+
+# Byte / compiled / optimized
+*.py[cod]
+__pycache__/
+*.so
+/doc/_generated
+
+# Distribution / packaging
+/build/
+/dist/
+*.egg-info/
+.eggs/
