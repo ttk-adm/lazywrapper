@@ -1,6 +1,6 @@
 [project]
 name = "lazywrapper"
-version = "0.1.0"
+version = "0.1.0-beta.0"
 description = "Wrapper for lazy functions / variables"
 authors = [{ name = "ttk-adm", email = "218129711+ttk-adm@users.noreply.github.com" }]
 readme = {file = "README.md", content-type = "text/markdown"}
