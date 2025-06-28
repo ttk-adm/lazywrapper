@@ -34,7 +34,7 @@ html_theme_options = {
             "icon": "fa-brands fa-python",
         },
     ],
-    "gitlab_url": "https://github.com/ttk-adm/lazywrapper",
+    "github_url": "https://github.com/ttk-adm/lazywrapper",
     "navbar_start": ["navbar_start"],
     "footer_start": ["copyright"],
     "footer_end": ["footer_end"],
