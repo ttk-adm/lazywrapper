@@ -1,33 +1,41 @@
+import importlib.metadata
 
+project = "lazywrapper"
+version = importlib.metadata.version(project)
+copyright = "2025, ttk-adm"
+author = "ttk-adm"
+docstitle = f"{project} {version}"
 
-# -- Project information -----------------------------------------------------
-project = 'lazywrapper'
-version = "0.1.0"
-copyright = '2025, ttk-adm'
-author = 'ttk-adm'
-docstitle = "lazywrapper"
-
-# -- General configuration ---------------------------------------------------
 extensions = [
-    'sphinx.ext.autodoc',
+    "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
-    'sphinx.ext.napoleon',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages',
+    "sphinx.ext.viewcode",
+    "sphinx_autodoc_typehints",
 ]
-
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+templates_path = ["_templates"]
+exclude_patterns = []
 
 always_document_param_types = True
 
+autosummary_generate = True
 autodoc_default_flags = [
     "members",
     "undoc-members",
     "show-inheritance",
 ]
 
-
-# -- HTML output -------------------------------------------------------------
-html_theme = 'alabaster'
+html_theme = "pydata_sphinx_theme"
 html_static_path = []
+html_theme_options = {
+    "icon_links": [
+        {
+            "name": "pypi",
+            "url": "https://pypi.org/project/lazywrapper",
+            "icon": "fa-brands fa-python",
+        },
+    ],
+    "gitlab_url": "https://github.com/ttk-adm/lazywrapper",
+    "navbar_start": ["navbar_start"],
+    "footer_start": ["copyright"],
+    "footer_end": ["footer_end"],
+}
