@@ -2,7 +2,7 @@
 name = "lazywrapper"
 version = "0.1.0"
 description = "Wrapper for lazy functions / variables"
-authors = [{ name = "ttk-adm"}]
+authors = [{ name = "ttk-adm", email = "218129711+ttk-adm@users.noreply.github.com" }]
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {file = "LICENSE.md"}
 classifiers = [
