@@ -5,4 +5,4 @@ API documentation
     :toctree: _generated
     :recursive:
 
-    ewoksxas
+    lazywrapper
